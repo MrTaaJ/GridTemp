@@ -1,0 +1,64 @@
+/* Base styles */
+:root{
+    --backcolor: rgba(80, 86, 102, 1);
+    --maincolor: rgb(150, 157, 175, 1);
+}
+
+@font-face {
+    font-family: Electra;
+    src: url(../fonts/ElectraLTStd-Regular.otf);
+}
+@font-face {
+    font-family: GraphikLight;
+    src: url(../fonts/GraphikLight.otf);
+}
+@font-face {
+    font-family: GraphikMedium;
+    src: url(../fonts/GraphikMedium.otf);
+}
+@font-face {
+    font-family: GraphikRegular;
+    src: url(../fonts/GraphikRegular.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-weight: normal;
+    background-color: var(--backcolor);
+    color: var(--maincolor);
+    font-family: 'Graphik', sans-serif;
+    /*font-family: 'Bebas Neue', cursive;
+    font-family: 'Bungee Hairline', cursive;*/
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.group::after
+{
+clear: both;
+content: ".";
+display: block;
+height: 0px;
+line-height: 0px;
+visibility: hidden;
+}
+h1{
+    font: 700 4rem/40px 'GraphikMedium', sans-serif;
+    letter-spacing: 2px;
+}
+h2{
+    font: 600 3rem/40px 'GraphikMedium', sans-serif;
+    letter-spacing: 1px;
+}
+h3{
+    font: 500 2rem/40px 'GraphikMedium', sans-serif;
+}
+h4{
+    font: 500 1rem/40px 'GraphikRegular', sans-serif;
+}
+p{
+    font: 400 1rem/40px 'Electra', serif;
+    letter-spacing: 1px;
+}
