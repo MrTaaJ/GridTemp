@@ -29,9 +29,6 @@ body {
     font-weight: normal;
     background-color: var(--backcolor);
     color: var(--maincolor);
-    font-family: 'Graphik', sans-serif;
-    /*font-family: 'Bebas Neue', cursive;
-    font-family: 'Bungee Hairline', cursive;*/
     font-size: 1rem;
     line-height: 1.5;
 }
@@ -61,4 +58,7 @@ h4{
 p{
     font: 400 1rem/40px 'Electra', serif;
     letter-spacing: 1px;
+}
+.text-cent{
+    text-align: center;
 }

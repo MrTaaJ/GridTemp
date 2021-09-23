@@ -1,3 +1,66 @@
+section{
+  display: grid;
+}
+.grd-just-cent{
+  display: grid;
+  place-items: center;
+}
+.grd-col{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  gap: 5px;
+  box-sizing: border-box;
+}
+.grd-col-full{
+  grid-template-areas:
+    "col-1 col-2 col-3 col-4 col-5 col-6 col-7 col-8 col-9 col-10 col-11 col-12";
+}
+.grd-col-med{
+  grid-template-areas:
+    "col-1 col-2 col-3 col-4 col-5 col-6 col-7 col-8 col-9 col-10 col-11 col-12";
+}
+
+.grd-span-1 {
+  grid-column: span 1;
+}
+.grd-span-2 {
+  grid-column: span 2;
+}
+.grd-span-3 {
+  grid-column: span 3;
+}
+.grd-span-4 {
+  grid-column: span 4;
+}
+.grd-span-5 {
+  grid-column: span 5;
+}
+.grd-span-6 {
+  grid-column: span 6;
+}
+.grd-span-7 {
+  grid-column: span 7;
+}
+.grd-span-8 {
+  grid-column: span 8;
+}
+.grd-span-9 {
+  grid-column: span 9;
+}
+.grd-span-10 {
+  grid-column: span 10;
+}
+.grd-span-11 {
+  grid-column: span 11;
+}
+.grd-span-12 {
+  grid-column: span 12;
+}
+
+
+
 @media screen and (max-width: 1024px) {
   /* Nav Header */
   .header {
@@ -115,25 +178,7 @@
     box-sizing: border-box;
   }
 
-  .g1 {
-    grid-area: one1;
-  }
-
-  .g2 {
-    grid-area: two2;
-  }
-
-  .g3 {
-    grid-area: three3;
-  }
-
-  .g4 {
-    grid-area: four4;
-  }
-
-  .g5 {
-    grid-area: five5;
-  }
+  
 
   .g2grid {
     margin-top: 40px;

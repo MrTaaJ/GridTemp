@@ -3,4 +3,4 @@ This imports the `reset.css` file */
 @import './reset.css';
 @import './main.css';
 @import './grid.css';
-@import './mobile.css';
+@import './sect.css';
