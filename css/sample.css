@@ -1,0 +1,14 @@
+
+.logo img{
+    width: 100px;
+    height: 20px;
+}
+.button-plain .ion-icon{
+    transform: scale(1.5);
+}
+.button-plain {
+    font-size: 13px;
+}
+.button-anchor{
+    font-size: 13px;
+}

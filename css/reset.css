@@ -1,7 +1,8 @@
 /* Base styles */
 :root{
-    --backcolor: rgba(80, 86, 102, 1);
-    --maincolor: rgb(150, 157, 175, 1);
+    --backcolor: white;
+    --backcolor2: rgb(150, 157, 175, 1);
+    --maincolor: rgba(80, 86, 102, 1);
 }
 
 @font-face {

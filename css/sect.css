@@ -1,36 +1,127 @@
 /* ==== Root ==== */
-:root {
+:root{
+  --backcolor: white;
+  --backcolor2: rgb(150, 157, 175, 1);
   --maincolor: rgba(80, 86, 102, 1);
-  --backcolor: #f7f8f8;
 }
 
-/* ==== Header ==== */
-.header {
-  display: block;
-  width: 100%;
+section{
+  display: grid;
 }
 .container{
-  max-width: 1400px;
-  height: 200px;
+  padding-top: 10px;  
+  width: 100%;
 }
-.samp{
-  height: 100px;
-  /* width: calc(1400/12); */
-  background-color: #555;
+.header {
+  width: 100%;
 }
-.container2{
-  max-width: 700px;
-  height: 200px;
+ul {
+  list-style-type: none;
+}
+.nav ul li {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  color: var(--maincolor);
+}
+.footer{
+  width: 100%;
+}
+.footer ul li {
+  display: block;
+}
+.logo{
+  width: 130px;
+  height: 30px;
+  cursor: pointer;
+  padding: 5px;
+  box-sizing: border-box;
+}
+/* Button */
+.button-plain {
+  padding: 5px 10px;
+  text-align: center;
+  font: 400 14px/20px 'GraphikRegular', sans-serif;
+}
+.button-anchor {
+  width: 120px;
+  height: 30px;
+  font: 400 14px/20px 'GraphikRegular', sans-serif;
+  padding: 5px;
+}
+.button-anchor-text{
+  text-align: center;
+}
+.button-anchor:hover .button-anchor-icon > .ion-icon {
+  transform: translateX(5px);
+}
+/* Padding */
+.pad-max{
+  padding: 15%;
+}
+.pad-med{
+  padding: 7%;
+}
+.pad-sm{
+  padding: 5%;
+}
+.pad-exsm{
+  padding: 2%;
+}
+.pad-lr-max{
+  padding: 0 15%;
+}
+.pad-lr-med{
+  padding: 0 7%;
+}
+.pad-lr-sm{
+  padding: 0 5%;
+}
+.pad-lr-exsm{
+  padding: 0 2%;
+}
+.pad-tb-max{
+  padding: 15% 0;
+}
+.pad-tb-med{
+  padding: 7% 0;
+}
+.pad-tb-sm{
+  padding: 5% 0;
+}
+.pad-tb-exsm{
+  padding: 2% 0;
 }
 
-
-
-
-
-
-
-
-
+ /* Margin */
+.margin-max{
+  margin: 15%;
+}
+.margin-med{
+  margin: 7%;
+}
+.margin-sm{
+  margin: 5%;
+}
+.margin-lr-max{
+  margin: 0 15%;
+}
+.margin-lr-med{
+  margin: 0 7%;
+}
+.margin-lr-sm{
+  margin: 0 5%;
+}
+.margin-tb-max{
+  margin: 15% 0;
+}
+.margin-tb-med{
+  margin: 8% 0;
+}
+.margin-tb-sm{
+  margin: 5% 0;
+}
 
 
 
@@ -363,11 +454,6 @@
   padding: 70px 30px;
   max-width: 1400px;
   margin: 5px;
-}
-
-.logo {
-  margin-right: 250px;
-  cursor: pointer;
 }
 
 .top1-text {

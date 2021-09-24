@@ -1,6 +1,4 @@
-section{
-  display: grid;
-}
+/* GRID */
 .grd-just-cent{
   display: grid;
   place-items: center;
@@ -10,16 +8,8 @@ section{
   width: 100%;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
-  gap: 5px;
+  gap: 10px;
   box-sizing: border-box;
-}
-.grd-col-full{
-  grid-template-areas:
-    "col-1 col-2 col-3 col-4 col-5 col-6 col-7 col-8 col-9 col-10 col-11 col-12";
-}
-.grd-col-med{
-  grid-template-areas:
-    "col-1 col-2 col-3 col-4 col-5 col-6 col-7 col-8 col-9 col-10 col-11 col-12";
 }
 
 .grd-span-1 {
@@ -58,6 +48,70 @@ section{
 .grd-span-12 {
   grid-column: span 12;
 }
+
+/* FLEX */
+.flex-row-right{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+.flex-row-left{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+.flex-row-bet{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-row-even{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.flex-row-around{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-col-bet{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-col-even{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.flex-col-around{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,7 +1,8 @@
 /* ==== Root ==== */
-:root {
-  --maincolor: rgba(80, 86, 102, 1);
-  --backcolor: #f7f8f8;
+:root{
+  --backcolor: white;
+  --backcolor2: rgba(80, 86, 102, 1);
+  --maincolor: rgb(150, 157, 175, 1);
 }
 
 /* ==== Header ==== */
@@ -337,10 +338,7 @@
   margin: 5px;
 }
 
-.logo {
-  margin-right: 250px;
-  cursor: pointer;
-}
+
 
 .top1-text {
   font: 200 20px 'GraphikLight', sans-serif;
