@@ -3,6 +3,7 @@
   --backcolor: white;
   --backcolor2: rgb(150, 157, 175, 1);
   --maincolor: rgba(80, 86, 102, 1);
+  --darkcolor: rgb(0, 0, 0);
 }
 
 section{
@@ -42,20 +43,43 @@ a {
 .button-plain {
   padding: 5px 10px;
   text-align: center;
-  font: 400 14px/20px 'GraphikRegular', sans-serif;
+  font-weight: 400;
+  font-family: 'GraphikRegular', sans-serif;
 }
 .button-anchor {
-  width: 120px;
-  height: 30px;
-  font: 400 14px/20px 'GraphikRegular', sans-serif;
-  padding: 5px;
+  font-weight: 400;
+  font-family: 'GraphikRegular', sans-serif;
+  padding: 10px 5px;
 }
 .button-anchor-text{
   text-align: center;
 }
+.text-color-white{
+  color: white;
+}
+.text-color-dark{
+  color: var(--darkcolor);
+}
 .button-anchor:hover .button-anchor-icon > .ion-icon {
   transform: translateX(5px);
 }
+
+/* Card */
+.card{
+  height: 100%;
+}
+.card-image{
+  height: 40%;
+}
+.card-text{
+  height: 60%;
+}
+.card-image img{
+  width: 100%;
+  height: 100%;
+}
+
+
 /* Padding */
 .pad-max{
   padding: 15%;
@@ -66,7 +90,7 @@ a {
 .pad-sm{
   padding: 5%;
 }
-.pad-exsm{
+.pad-xsm{
   padding: 2%;
 }
 .pad-lr-max{
@@ -78,7 +102,7 @@ a {
 .pad-lr-sm{
   padding: 0 5%;
 }
-.pad-lr-exsm{
+.pad-lr-xsm{
   padding: 0 2%;
 }
 .pad-tb-max{
@@ -90,46 +114,128 @@ a {
 .pad-tb-sm{
   padding: 5% 0;
 }
-.pad-tb-exsm{
+.pad-tb-xsm{
   padding: 2% 0;
 }
 
  /* Margin */
 .margin-max{
-  margin: 15%;
+  margin: 100px;
 }
 .margin-med{
-  margin: 7%;
+  margin: 50px;
 }
 .margin-sm{
-  margin: 5%;
+  margin: 20px;
 }
 .margin-lr-max{
-  margin: 0 15%;
+  margin: 0 100px;
 }
 .margin-lr-med{
-  margin: 0 7%;
+  margin: 0 50px;
 }
 .margin-lr-sm{
-  margin: 0 5%;
+  margin: 0 20px;
 }
 .margin-tb-max{
-  margin: 15% 0;
+  margin: 100px 0;
 }
 .margin-tb-med{
-  margin: 8% 0;
+  margin: 50px 0;
 }
 .margin-tb-sm{
-  margin: 5% 0;
+  margin: 20px 0;
+}
+.margin-tb-xsm{
+  margin: 10px 0;
+}
+/* Setting Height */
+.height-100-per{
+  height: 100%;
+}
+.height-80-per{
+  height: 80%;
+}
+.height-50-per{
+  height: 50%;
+}
+.height-30-per{
+  height: 30%;
+}
+.height-500{
+  height: 500px;
+}
+.height-450{
+  height: 450px;
+}
+.height-400{
+  height: 400px;
+}
+.height-350{
+  height: 350px;
+}
+.height-300{
+  height: 300px;
+}
+.height-250{
+  height: 250px;
+}
+.height-200{
+  height: 200px;
+}
+.height-150{
+  height: 150px;
+}
+.height-100{
+  height: 100px;
 }
 
-
-
-
-
-
-
-
+/* Setting Width */
+.width-100-per{
+  width: 100%;
+}
+.width-80-per{
+  width: 80%;
+}
+.width-50-per{
+  width: 50%;
+}
+.width-30-per{
+  width: 30%;
+}
+.width-500{
+  width: 500px;
+}
+.width-450{
+  width: 450px;
+}
+.width-400{
+  width: 400px;
+}
+.width-350{
+  width: 350px;
+}
+.width-300{
+  width: 300px;
+}
+.width-250{
+  width: 250px;
+}
+.width-200{
+  width: 200px;
+}
+.width-170{
+  width: 170px;
+}
+.width-150{
+  width: 150px;
+}
+.width-125{
+  width: 125px;
+}
+.width-100{
+  width: 100px;
+}
 
 
 

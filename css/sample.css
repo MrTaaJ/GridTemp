@@ -6,9 +6,24 @@
 .button-plain .ion-icon{
     transform: scale(1.5);
 }
-.button-plain {
-    font-size: 13px;
+
+.sec-top1{
+    background-image: url(../img/RWKHu9.jpeg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.button-anchor{
-    font-size: 13px;
+.sec-top1-2{
+    background-image: url(../img/RE2OLdz.jpeg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec-top2{
+    width: 50%;
+}
+.sec-background{
+    background-color: rgb(205, 207, 214);
 }

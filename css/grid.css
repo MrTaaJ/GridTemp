@@ -1,51 +1,58 @@
 /* GRID */
-.grd-just-cent{
+.grid-just-cent{
   display: grid;
   place-items: center;
 }
-.grd-col{
+.grid-col{
   display: grid;
   width: 100%;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
-  gap: 10px;
   box-sizing: border-box;
 }
-
-.grd-span-1 {
+.grid-gap-max{
+  gap: 50px;
+}
+.grid-gap-med{
+  gap: 20px;
+}
+.grid-gap-sm{
+  gap: 10px;
+}
+.grid-span-1 {
   grid-column: span 1;
 }
-.grd-span-2 {
+.grid-span-2 {
   grid-column: span 2;
 }
-.grd-span-3 {
+.grid-span-3 {
   grid-column: span 3;
 }
-.grd-span-4 {
+.grid-span-4 {
   grid-column: span 4;
 }
-.grd-span-5 {
+.grid-span-5 {
   grid-column: span 5;
 }
-.grd-span-6 {
+.grid-span-6 {
   grid-column: span 6;
 }
-.grd-span-7 {
+.grid-span-7 {
   grid-column: span 7;
 }
-.grd-span-8 {
+.grid-span-8 {
   grid-column: span 8;
 }
-.grd-span-9 {
+.grid-span-9 {
   grid-column: span 9;
 }
-.grd-span-10 {
+.grid-span-10 {
   grid-column: span 10;
 }
-.grd-span-11 {
+.grid-span-11 {
   grid-column: span 11;
 }
-.grd-span-12 {
+.grid-span-12 {
   grid-column: span 12;
 }
 
