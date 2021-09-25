@@ -3,7 +3,7 @@
   --whitecolor: white;
   --backcolor: rgb(150, 157, 175, 1);
   --maincolor: rgba(80, 86, 102, 1);
-  --darkcolor: rgb(0, 0, 0);
+  --blackcolor: rgb(0, 0, 0);
 }
 
 section{
@@ -50,13 +50,42 @@ a {
   font-weight: 400;
   font-family: 'GraphikRegular', sans-serif;
   padding: 10px 5px;
+  transition: all 0.5s;
 }
 .button-anchor-text{
   text-align: center;
 }
+.button-anchor:hover .button-anchor-text{
+  margin-left: -5px;
+}
 .button-anchor:hover .button-anchor-icon > .ion-icon {
   transform: translateX(5px);
 }
+
+.underline-text:hover {
+  text-decoration-line: underline;
+}
+.underline-text-white{
+  text-underline-offset: 2px;
+  text-decoration-line: none;
+  transition: all 0.5s;
+}
+.underline-text-white:hover {
+  text-decoration-color: var(--whitecolor);
+  text-decoration-thickness: 2px;
+  text-decoration-line: underline;
+}
+.underline-text-black{
+  text-underline-offset: 2px;
+  text-decoration-line: none;
+  transition: all 0.5s;
+}
+.underline-text-black:hover {
+  text-decoration-color: var(--blackcolor);
+  text-decoration-thickness: 2px;
+  text-decoration-line: underline;
+}
+
 
 /* Card */
 .card{
