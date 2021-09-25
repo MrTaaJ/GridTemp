@@ -3,10 +3,6 @@
     width: 100px;
     height: 20px;
 }
-.button-plain .ion-icon{
-    transform: scale(1.5);
-}
-
 .sec-top1{
     background-image: url(../img/RWKHu9.jpeg);
     background-blend-mode: darken;
@@ -30,8 +26,16 @@
 .footicon{
     margin-left: -20px;
     margin-right: 10px;
-    transform: scale(1.5);
 }
 .footicon .ion-icon{
     transform: scale(2);
+}
+.l-facebook{
+    color: #4267B2;
+}
+.l-twitter{
+    color: #1DA1F2;
+}
+.l-linkedin{
+    color: #0e76a8;
 }
