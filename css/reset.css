@@ -3,7 +3,7 @@
     --whitecolor: white;
     --backcolor: rgb(150, 157, 175, 1);
     --maincolor: rgba(80, 86, 102, 1);
-    --darkcolor: rgb(0, 0, 0);
+    --blackcolor: rgb(0, 0, 0);
 }
 
 @font-face {
@@ -30,7 +30,7 @@
 body {
     font-weight: normal;
     background-color: var(--whitecolor);
-    color: var(--darkcolor);
+    color: var(--blackcolor);
     font-size: 1rem;
     line-height: 1.5;
 }
@@ -81,12 +81,12 @@ p{
 }
 .text-color-white{
     color: white;
-  }
-  .text-color-dark{
-    color: var(--darkcolor);
-  }
-.dark-background{
-    background-color: var(--darkcolor);
+}
+.text-color-black{
+    color: var(--blackcolor);
+}
+.black-background{
+    background-color: var(--blackcolor);
 }
 .white-background{
     background-color: var(--whitecolor);
