@@ -1,7 +1,7 @@
 /* Base styles */
 :root{
-    --backcolor: white;
-    --backcolor2: rgb(150, 157, 175, 1);
+    --whitecolor: white;
+    --backcolor: rgb(150, 157, 175, 1);
     --maincolor: rgba(80, 86, 102, 1);
     --darkcolor: rgb(0, 0, 0);
 }
@@ -29,7 +29,7 @@
 }
 body {
     font-weight: normal;
-    background-color: var(--backcolor);
+    background-color: var(--whitecolor);
     color: var(--darkcolor);
     font-size: 1rem;
     line-height: 1.5;
@@ -76,12 +76,18 @@ p{
 .xsmall-font{
     font-size: 12px;
 }
-.text-cent{
+.text-center{
     text-align: center;
 }
+.text-color-white{
+    color: white;
+  }
+  .text-color-dark{
+    color: var(--darkcolor);
+  }
 .dark-background{
     background-color: var(--darkcolor);
 }
-.bright-background{
-    background-color: var(--backcolor);
+.white-background{
+    background-color: var(--whitecolor);
 }

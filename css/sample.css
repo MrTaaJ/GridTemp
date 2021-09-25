@@ -21,9 +21,17 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.sec-top2{
-    width: 50%;
-}
 .sec-background{
-    background-color: rgb(205, 207, 214);
+    background-color: rgba(205, 207, 214, 0.6);
+}
+.remargin{
+    margin-left: -10px;
+}
+.footicon{
+    margin-left: -20px;
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+.footicon .ion-icon{
+    transform: scale(2);
 }
