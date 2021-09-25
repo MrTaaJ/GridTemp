@@ -64,6 +64,7 @@ p{
     font: 400 1rem/40px 'Electra', serif;
     letter-spacing: 1px;
 }
+/* Font Size */
 .large-font{
     font-size: 18px;
 }
@@ -76,6 +77,36 @@ p{
 .xsmall-font{
     font-size: 12px;
 }
+/* Font Weight */
+.font-wt-100{
+    font-weight: 100;
+}
+.font-wt-200{
+    font-weight: 200;
+}
+.font-wt-300{
+    font-weight: 300;
+}
+.font-wt-400{
+    font-weight: 400;
+}
+.font-wt-500{
+    font-weight: 500;
+}
+.font-wt-600{
+    font-weight: 600;
+}
+.font-wt-700{
+    font-weight: 700;
+}
+.font-wt-800{
+    font-weight: 800;
+}
+.font-wt-900{
+    font-weight: 900;
+}
+
+/* Text */
 .text-center{
     text-align: center;
 }
@@ -85,6 +116,8 @@ p{
 .text-color-black{
     color: var(--blackcolor);
 }
+
+/* Background */
 .black-background{
     background-color: var(--blackcolor);
 }
