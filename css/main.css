@@ -21,7 +21,7 @@
     background-color: rgba(205, 207, 214, 0.6);
 }
 .remargin{
-    margin-left: -10px;
+    margin-left: -5px;
 }
 .footicon{
     margin-left: -20px;
@@ -38,4 +38,10 @@
 }
 .l-linkedin{
     color: #0e76a8;
+}
+.width-1600{
+    width: 1600px;
+}
+  .width-1400{
+    width: 1400px;
 }

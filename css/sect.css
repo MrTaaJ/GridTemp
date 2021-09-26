@@ -10,11 +10,7 @@ section{
   display: grid;
 }
 .container{
-  padding-top: 10px;  
-  width: 100%;
-}
-.header {
-  width: 100%;
+  padding-top: 10px;
 }
 ul {
   list-style-type: none;
@@ -111,7 +107,7 @@ a {
   padding: 15%;
 }
 .pad-med{
-  padding: 7%;
+  padding: 10%;
 }
 .pad-sm{
   padding: 5%;
@@ -123,7 +119,7 @@ a {
   padding: 0 15%;
 }
 .pad-lr-med{
-  padding: 0 7%;
+  padding: 0 10%;
 }
 .pad-lr-sm{
   padding: 0 5%;
@@ -135,7 +131,7 @@ a {
   padding: 15% 0;
 }
 .pad-tb-med{
-  padding: 7% 0;
+  padding: 10% 0;
 }
 .pad-tb-sm{
   padding: 5% 0;
