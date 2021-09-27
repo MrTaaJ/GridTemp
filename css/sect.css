@@ -22,12 +22,6 @@ a {
 .footer{
   width: 100%;
 }
-.inline-block-display {
-  display: inline-block;
-}
-.block-display {
-  display: block;
-}
 .logo{
   width: 130px;
   height: 30px;
@@ -35,6 +29,7 @@ a {
   padding: 5px;
   box-sizing: border-box;
 }
+
 /* Button */
 .button-plain {
   padding: 5px;
@@ -81,20 +76,16 @@ a {
   text-decoration-thickness: 2px;
   text-decoration-line: underline;
 }
-.opacity-hover:hover{
-  opacity: 0.8;
-}
-
 
 /* Card */
 .card{
   height: 100%;
 }
 .card-image{
-  height: 40%;
+  height: 50%;
 }
 .card-text{
-  height: 60%;
+  height: 50%;
 }
 .card-image img{
   width: 100%;
@@ -177,6 +168,7 @@ a {
 .margin-tb-xsm{
   margin: 10px 0;
 }
+
 /* Setting Height */
 .height-100-per{
   height: 100%;
@@ -294,14 +286,8 @@ a {
 .width-200{
   width: 200px;
 }
-.width-170{
-  width: 170px;
-}
 .width-150{
   width: 150px;
-}
-.width-125{
-  width: 125px;
 }
 .width-100{
   width: 100px;
