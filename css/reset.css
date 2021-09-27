@@ -124,3 +124,19 @@ p{
 .white-background{
     background-color: var(--whitecolor);
 }
+
+/* Display */
+.inline-block-display {
+    display: inline-block;
+}
+.block-display {
+    display: block;
+}
+.none-display {
+    display: none;
+}
+
+/* Opacity */
+.opacity-hover:hover{
+    opacity: 0.8;
+}
