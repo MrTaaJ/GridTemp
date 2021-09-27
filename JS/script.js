@@ -15,17 +15,12 @@ var f = function (){
         divElement2[i].classList.remove('width-100-per');
         divElement[i].classList.add('width-100-per');
         divElement[i].classList.remove('pad-lr-sm');   
-      }else if (screentext >= 1401 && screentext <= 1700){
+      }else if (screentext >= 1081 && screentext <= 1700){
         divElement2[i].classList.remove('width-1600');
-        divElement[i].classList.add('width-100-per');
         divElement2[i].classList.add('width-100-per');
+        divElement[i].classList.add('width-100-per');        
         divElement[i].classList.add('pad-lr-sm');
-      }else if (screentext <= 1400 && screentext >= 1081){
-        divElement2[i].classList.remove('width-1600');
-        divElement[i].classList.add('width-100-per');
-        divElement2[i].classList.add('width-100-per');
-        divElement[i].classList.add('pad-lr-sm');
-      }; 
+      };
 
     };
     var j;
@@ -56,6 +51,15 @@ var f = function (){
         divElement5[k].classList.add('height-40-per');
       };
     };
+    if (screentext <= 1080 && screentext >= 861){
+      document.querySelector('#first-section-id-1').classList.remove('pad-lr-sm');
+      document.querySelector('#first-section-id-2').classList.remove('pad-lr-sm');
+      document.querySelector('#first-section-id-3').classList.remove('pad-lr-sm');
+    }else if (screentext <= 860){
+      document.querySelector('#first-section-id-1').classList.remove('pad-lr-sm');
+      document.querySelector('#first-section-id-2').classList.remove('pad-lr-sm');
+      document.querySelector('#first-section-id-3').classList.remove('pad-lr-sm');
+    };
     
     
     
@@ -73,7 +77,7 @@ var f = function (){
     //   document.querySelector('#first-section-1').classList.add('width-1600');
     //   document.querySelector('#first-section-1').classList.remove('width-100-per');
     //   document.querySelector('#first-section').classList.add('width-100-per');
-    //   document.querySelector('#first-section').classList.remove('pad-lr-sm');   
+    //   document.querySelector('#id="first-section-id-1"').classList.remove('pad-lr-sm');   
     // }else if (screentext >= 1401 && screentext <= 1700){
     //   document.querySelector('#first-section-1').classList.remove('width-1600');
     //   document.querySelector('#first-section').classList.add('width-100-per');
